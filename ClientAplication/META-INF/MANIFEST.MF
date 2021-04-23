@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ClientAplication
+Bundle-SymbolicName: ClientAplication
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: clientaplication.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: ClientAplication
+Import-Package: bill_producer,
+ menuProducer,
+ orderproducer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
